@@ -22,3 +22,7 @@ INSERT INTO tb_resource(title, description, poss, img_uri, resource_type, offer_
 INSERT INTO tb_section(title, description, poss, img_uri, resource_id, prerequisite_id)VALUES ('CAP1', 'FULL', 1, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 1, 1);
 INSERT INTO tb_section(title, description, poss, img_uri, resource_id, prerequisite_id)VALUES ('CAP1','FULL', 2,'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 2, 2);
 INSERT INTO tb_section(title, description, poss, img_uri, resource_id, prerequisite_id)VALUES ('CAP1','FULL', 3, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 3, 3);
+
+INSERT INTO tb_enrollment(user_id, offer_id, enroll_moment, refund_moment, available, only_update)VALUES(1, 1, TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z', null, true, false);
+INSERT INTO tb_enrollment(user_id, offer_id, enroll_moment, refund_moment, available, only_update)VALUES(2, 1, TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z', null, true, false);
+INSERT INTO tb_enrollment(user_id, offer_id, enroll_moment, refund_moment, available, only_update)VALUES(2, 2, TIMESTAMP WITH TIME ZONE '2022-07-14T10:00:00Z', null, true, false);
