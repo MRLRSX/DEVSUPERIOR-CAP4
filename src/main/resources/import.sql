@@ -10,3 +10,7 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 
 INSERT INTO tb_course(name, img_uri, img_gray_uri) VALUES ('BOOT CAMP HTML', 'https://cdn.programadoresbrasil.com.br/wp-content/uploads/2020/02/Introduction-to-HTML-and-CSS-for-Beginners-Hafiza-Rabbia-Shafiq.jpg', 'https://cdn.programadoresbrasil.com.br/wp-content/uploads/2020/02/Introduction-to-HTML-and-CSS-for-Beginners-Hafiza-Rabbia-Shafiq.jpg');
 INSERT INTO tb_course(name, img_uri, img_gray_uri) VALUES ('BOOT CAMP SPRING', 'https://cdn.crunchify.com/wp-content/uploads/2013/02/Simplest-Spring-MVC-tutorial-by-Crunchify.com_.png','https://cdn.crunchify.com/wp-content/uploads/2013/02/Simplest-Spring-MVC-tutorial-by-Crunchify.com_.png');
+
+INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES('1.0',TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z', TIMESTAMP WITH TIME ZONE '2021-07-14T10:00:00Z', 1);
+INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES('2.0',TIMESTAMP WITH TIME ZONE '2022-07-14T10:00:00Z', TIMESTAMP WITH TIME ZONE '2023-07-14T10:00:00Z', 1);
+INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES('1.0',TIMESTAMP WITH TIME ZONE '2021-10-15T10:00:00Z', TIMESTAMP WITH TIME ZONE '2022-10-15T10:00:00Z', 2);
