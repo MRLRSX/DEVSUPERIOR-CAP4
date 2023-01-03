@@ -19,3 +19,6 @@ INSERT INTO tb_resource(title, description, poss, img_uri, resource_type, offer_
 INSERT INTO tb_resource(title, description, poss, img_uri, resource_type, offer_id)VALUES('TRILHA SPRING', 'WEB REST FULL', 2, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 1, 2);
 INSERT INTO tb_resource(title, description, poss, img_uri, resource_type, offer_id)VALUES('TIRLHA HTML', 'ATUALIZADA', 3, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 2, 1);
 
+INSERT INTO tb_section(title, description, poss, img_uri, resource_id, prerequisite_id)VALUES ('CAP1', 'FULL', 1, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 1, 1);
+INSERT INTO tb_section(title, description, poss, img_uri, resource_id, prerequisite_id)VALUES ('CAP1','FULL', 2,'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 2, 2);
+INSERT INTO tb_section(title, description, poss, img_uri, resource_id, prerequisite_id)VALUES ('CAP1','FULL', 3, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 3, 3);
