@@ -14,3 +14,8 @@ INSERT INTO tb_course(name, img_uri, img_gray_uri) VALUES ('BOOT CAMP SPRING', '
 INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES('1.0',TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z', TIMESTAMP WITH TIME ZONE '2021-07-14T10:00:00Z', 1);
 INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES('2.0',TIMESTAMP WITH TIME ZONE '2022-07-14T10:00:00Z', TIMESTAMP WITH TIME ZONE '2023-07-14T10:00:00Z', 1);
 INSERT INTO tb_offer(edition, start_moment, end_moment, course_id) VALUES('1.0',TIMESTAMP WITH TIME ZONE '2021-10-15T10:00:00Z', TIMESTAMP WITH TIME ZONE '2022-10-15T10:00:00Z', 2);
+
+INSERT INTO tb_resource(title, description, poss, img_uri, resource_type, offer_id)VALUES('TRILHA HTML', 'PRINCIPAL', 1, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 1, 1);
+INSERT INTO tb_resource(title, description, poss, img_uri, resource_type, offer_id)VALUES('TRILHA SPRING', 'WEB REST FULL', 2, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 1, 2);
+INSERT INTO tb_resource(title, description, poss, img_uri, resource_type, offer_id)VALUES('TIRLHA HTML', 'ATUALIZADA', 3, 'https://blog.planview.com/wp-content/uploads/2015/03/3asset.jpg', 2, 1);
+
