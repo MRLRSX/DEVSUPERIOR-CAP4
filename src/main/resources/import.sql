@@ -53,3 +53,28 @@ INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 3', 4, 3);
 INSERT INTO tb_content(id, text_content, video_uri)VALUES(12, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
 
 
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 4', 1, 4)
+INSERT INTO tb_task(id, description, question_count, approval_count, wieght, due_date)VALUES(1, 'PROVA SECTION 1', 10, 7, 1.0, TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z');
+
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 4', 2, 4)
+INSERT INTO tb_task(id, description, question_count, approval_count, wieght, due_date)VALUES(1, 'PROVA SECTION 2', 10, 7, 1.0, TIMESTAMP WITH TIME ZONE '2020-08-14T10:00:00Z');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 4', 3, 4)
+INSERT INTO tb_task(id, description, question_count, approval_count, wieght, due_date)VALUES(1, 'PROVA SECTION 3', 10, 7, 1.0, TIMESTAMP WITH TIME ZONE '2020-09-14T10:00:00Z');
+
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 4', 4, 4);
+INSERT INTO tb_task(id, description, question_count, approval_count, wieght, due_date)VALUES(1, 'PROVA SECTION 4', 10, 7, 1.0, TIMESTAMP WITH TIME ZONE '2020-10-14T10:00:00Z');
+
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(1, 1, 1);
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(2, 1, 1);
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(3, 1, 1);
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(4, 1, 1);
+
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(10, 2, 2);
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(11, 2, 2);
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(12, 2, 2);
+
+
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(6, 2, 2);
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(7, 2, 2);
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(8, 2, 2);
+INSERT INTO tb_lesson_done(lesson_id, user_id, offer_id)VALUES(9, 2, 2);
