@@ -26,3 +26,30 @@ INSERT INTO tb_section(title, description, poss, img_uri, resource_id, prerequis
 INSERT INTO tb_enrollment(user_id, offer_id, enroll_moment, refund_moment, available, only_update)VALUES(1, 1, TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z', null, true, false);
 INSERT INTO tb_enrollment(user_id, offer_id, enroll_moment, refund_moment, available, only_update)VALUES(2, 1, TIMESTAMP WITH TIME ZONE '2020-07-14T10:00:00Z', null, true, false);
 INSERT INTO tb_enrollment(user_id, offer_id, enroll_moment, refund_moment, available, only_update)VALUES(2, 2, TIMESTAMP WITH TIME ZONE '2022-07-14T10:00:00Z', null, true, false);
+
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 1', 1, 1);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(1, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 2', 2, 1);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(2, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 3', 3, 1);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(3, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 4', 4, 1);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(4, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 1', 1, 2);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(5, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 2', 2, 2);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(6, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 3', 3, 2);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(7, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 4', 4, 2);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(8, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 3', 1, 3);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(9, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 3', 2, 3);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(10, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 3', 3, 3);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(11, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+INSERT INTO tb_lesson(title, poss, section_id)VALUES('AULA 3', 4, 3);
+INSERT INTO tb_content(id, text_content, video_uri)VALUES(12, 'Materia de Apoio', 'https://learn.devsuperior.com/offers/53/resource/264/sections/917?item=10610');
+
+
